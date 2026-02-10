@@ -5,7 +5,9 @@ public class Main {
     public static void main(String[] args) throws IOException {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
+        
+        //짝을 이루는 경우의 문제 -> 스택
+        
         while (true) {
 
             String s = br.readLine();
